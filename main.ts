@@ -1,4 +1,4 @@
 basic.forever(function on_forever() {
-    let hdg = input.compassHeading()
+    let hdg = []
     basic.showString("Hello!")
 })
