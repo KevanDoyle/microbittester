@@ -1,3 +1,4 @@
 def on_forever():
-    basic.show_string("Hi Elliott!")    
+    hdg = input.compass_heading()
+    basic.show_string(hdg)
 basic.forever(on_forever)
