@@ -1,3 +1,5 @@
+hdg = 0
 def on_forever():
-    basic.show_string(input.compass_heading())
+    hdg = input.compass_heading()
+    basic.show_string(hdg`)
 basic.forever(on_forever)
